@@ -1,0 +1,15 @@
+body {
+    background-color: #232323;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    margin: 100px auto 0 auto;
+    font-size: 100px;
+    justify-content: center;
+    user-select: none;
+    font-weight: bold;
+}
