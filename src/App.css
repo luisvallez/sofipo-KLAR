@@ -123,3 +123,28 @@ h1 {
   opacity: 1 !important;
 
 }
+
+@media (width < 800px) {
+  p {
+    font-size: 14px;
+  }
+
+  .todo {
+    display: block;
+    justify-content: center;
+    margin: 25px auto 0 0;
+    height: 100%;
+    width: auto;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+
+  .chetos {
+    display: flex;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+  }
+}
