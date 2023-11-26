@@ -3,15 +3,15 @@ export default function Aparece({ dato }) {
         <>
             <div className='der'>
                 <h2 className="aparece">
-                    {`$${(dato * 0.002109).toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} MXN`}
+                    {`$${(dato * 0.002109589).toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} MXN`}
                 </h2>
 
                 <h2 className="aparece">
-                    {`$${(dato * .009205).toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} MXN`}
+                    {`$${(dato * .00986301).toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} MXN`}
                 </h2>
 
                 <h2 className="aparece">
-                    {`$${(dato * .032054).toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} MXN`}
+                    {`$${(dato * .03205479).toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} MXN`}
                 </h2>
 
                 <h2 className="aparece">
